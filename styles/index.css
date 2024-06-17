@@ -1,0 +1,48 @@
+.part {
+  h2 {
+    color: #294936;
+  }
+  text-align: center;
+  width: 80%;
+  background-color: #dad2bc;
+  box-shadow: 0 4px 5px darkgray;
+  border-radius: 5px;
+  margin: 50px auto;
+  padding: 0 15px 2px;
+}
+
+.container {
+  display: flex;
+  img {
+    width: 20%;
+    vertical-align: middle;
+    margin: 0 10px 10px 20px;
+    border-radius: 20px;
+  }
+}
+
+p {
+  text-align: justify;
+}
+
+.image {
+  display: inline-block;
+  width: 33%;
+  img {
+    display: flex;
+  }
+  .centered {
+    margin-bottom: 20px;
+  }
+}
+
+.project {
+  width: 90%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: transform 0.2s;
+}
+
+.project:hover {
+  transform: scale(1.2);
+}

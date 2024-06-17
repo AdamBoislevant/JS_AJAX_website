@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Project</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/project.css" />
+    <script src="scripts/edit.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="./index.html">
+        <h1>Portfolio: Adam BOISLEVANT-FLEURY</h1>
+      </a>
+      <nav id="navbar">
+        <a href="./index.html" id="home">Home</a>
+        <a href="./edit-project.html">Edit project</a>
+        <!-- project navigation will be dynamically added here by JavaScript -->
+      </nav>
+    </header>
+
+    <section class="part">
+      <h2 id="project-title"></h2>
+      <form id="edit-form">
+        <!-- Enter the informations in this form to generate a preview -->
+        <label for="company-name">Company Name:</label><br />
+        <input type="text" id="company-name" name="company-name" /><br />
+
+        <label for="keywords">Keywords:</label><br />
+        <input type="text" id="keywords" name="keywords" /><br />
+
+        <label for="summary">Summary:</label><br />
+        <textarea id="summary" name="summary"></textarea><br />
+
+        <label for="description">Description:</label><br />
+        <textarea id="description" name="description"></textarea><br />
+
+        <label for="company-pic">Company Picture URL:</label><br />
+        <input type="text" id="company-pic" name="company-pic" /><br />
+
+        <label for="description-pic">Description Picture URL:</label><br />
+        <input
+          type="text"
+          id="description-pic"
+          name="description-pic"
+        /><br /><br />
+
+        <!-- on click calls the previewChanges() function in edit.js with the informations written in the form -->
+        <button type="button" onclick="previewChanges()">
+          Preview Changes
+        </button>
+      </form>
+      <div id="preview">
+        <h2>Preview</h2>
+        <!-- preview elements -->
+        <p id="preview-company-name"></p>
+        <img id="preview-company-pic" alt="Company Image" /><br />
+        <p id="preview-keywords"></p>
+        <p id="preview-summary"></p>
+        <p id="preview-description"></p>
+        <br />
+        <img id="preview-description-pic" alt="Description Image" /><br />
+      </div>
+    </section>
+
+    <footer>
+      <p>Myself all rights reserved</p>
+    </footer>
+  </body>
+</html>

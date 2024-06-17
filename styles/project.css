@@ -1,0 +1,42 @@
+.part {
+  h2 {
+    color: #294936;
+  }
+  text-align: center;
+  width: 80%;
+  background-color: #dad2bc;
+  box-shadow: 0 4px 5px darkgray;
+  border-radius: 5px;
+  margin: 50px auto;
+  padding: 0 15px 2px;
+}
+
+.container {
+  text-align: justify;
+
+  display: flex;
+  .contextImg {
+    width: 30%;
+    height: 30%;
+    vertical-align: middle;
+    margin: 0 10px 10px 20px;
+    border-radius: 20px;
+  }
+}
+
+.description-pic {
+  display: block;
+}
+
+img {
+  max-width: 50%;
+  border-radius: 10px;
+}
+
+.link {
+  text-align: left;
+}
+
+.wip {
+  font-size: 150px;
+}

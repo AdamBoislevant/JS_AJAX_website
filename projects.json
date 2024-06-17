@@ -1,0 +1,24 @@
+[
+  {
+    "URL": "project.html?title=SSOToken",
+    "title": "SSOToken",
+    "keywords": "SSOToken, Angular, Spring",
+    "companyName": "Generali VIE",
+    "companyPic": "./styles/img/generali.jpg",
+    "summary": "One of the biggest project I have been involved in is my internship In Generali VIE. My project was to create a web application for the developpers use.To put this into context, some missions require access to the SSOGF access token, which is unique to each user and connection environment, and changes with each new connection. In addition, Generali has several development environments, depending on the use, needs and status of each user. There are 4 of them: production, pre-production, acceptance and integration. ",
+    "description": "My mission was to create a GUI enabling users to choose the environment they wished to connect to from the 4 available on the company intranet, and redirect them to the corresponding connection page if they were not yet connected. Once logged in, the user was redirected to a third page. The HMI would then retrieve the connection token (IdToken) and display it on this third page. Moreover, the SSO system is used to ensure greater IT security for all employees connected to their Generali accounts. It therefore uses security protocols such as OAuth 2.0. You can find more informations about the functionning of OAuth 2.0 on their site(<a class='link' href='https://oauth.net/2/'>https://oauth.net/2/</a>) Here you can find how a SSO token works: ",
+    "descriptionPic": "./styles/img/auth0.png",
+    "presentationPic": "./styles/img/css.jpg"
+  },
+  {
+    "URL": "./project.html?title=Hackathon",
+    "title": "Hackathon",
+    "keywords": "Hackathon, Python, BI",
+    "companyName": "Colas Digital Solutions",
+    "companyPic": "./styles/img/colas.png",
+    "summary": "Last year I had the chance to work on a hackathon in collaboration with Colas Digital solutions and my engineering school: CY Tech. This event took place in my school's site from 18th to 20th of october 2023, it was composed of 12 teams of 5 students so 60 students in total from any year. The theme of this hackathon was the AI-based image recognition and feature detection, the subject was divided in 3 parts: Data preparation, Data Science and Data visualisation (PBI).",
+    "description": "My mission was to train a computer vision model to detect degradations on airport runways. Colas has supplied a labeled dataset, consisting of 800 training images and 300 additional images, all in a 512x512 resolution, to facilitate this task. The model was evaluated on a separate test dataset. The dataset was already prepared by other member of the team you can see right next: ",
+    "descriptionPic": "./styles/img/hackathon.jpg",
+    "presentationPic": "./styles/img/hackathonFace.jpg"
+  }
+]
